@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Variables de entorno: proteger credenciales
+.env
+.env.*
+!.env.example
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
